@@ -1,9 +1,8 @@
 package com.baidu.uaq.imgopt.resp;
 
 /**
- * Created by baidu on 15/12/10.
+ * Created by miaohong01 on 15/12/10.
  */
-public class PutImgByUrlResponse {
-
+public class PutImgByUrlResponse extends PutImgResponse {
 
 }

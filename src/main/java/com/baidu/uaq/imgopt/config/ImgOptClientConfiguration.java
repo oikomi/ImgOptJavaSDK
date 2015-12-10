@@ -10,7 +10,7 @@ public class ImgOptClientConfiguration {
     private String secretKey;
 
     public ImgOptClientConfiguration() {
-
+        
     }
 
     public String getQuality() {
@@ -28,7 +28,6 @@ public class ImgOptClientConfiguration {
     public void setHost(String host) {
         this.host = host;
     }
-
 
     public String getSecretKey() {
         return secretKey;

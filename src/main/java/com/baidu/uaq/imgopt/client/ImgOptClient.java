@@ -1,6 +1,8 @@
 package com.baidu.uaq.imgopt.client;
 
 import com.baidu.uaq.imgopt.config.ImgOptClientConfiguration;
+import com.baidu.uaq.imgopt.http.ImgOptHttpClient;
+import com.baidu.uaq.imgopt.resp.PutImgByUploadResponse;
 import com.baidu.uaq.imgopt.resp.PutImgByUrlResponse;
 
 /**
@@ -13,8 +15,13 @@ public class ImgOptClient {
         this.imgOptClientConfiguration = imgOptClientConfiguration;
     }
 
-    public PutImgByUrlResponse putImgByUrl() {
+    public PutImgByUrlResponse putImgByUrl(String imgUrl) {
+        // ImgOptHttpClient imgOptHttpClient = new ImgOptHttpClient();
 
+        return null;
+    }
+
+    public PutImgByUploadResponse putImgByUpload(String imgFile) {
 
 
         return null;
