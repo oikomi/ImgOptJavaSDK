@@ -5,10 +5,8 @@ package com.baidu.uaq.imgopt.config;
  */
 public class ImgOptClientConfiguration {
     private String host;
-    private String quality;
-
+    private String quality = "70%";
     private String accessKey;
-
     private String secretKey;
 
     public ImgOptClientConfiguration() {
