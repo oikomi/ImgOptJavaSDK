@@ -5,4 +5,5 @@ package com.baidu.uaq.imgopt.resp;
  */
 public class PutImgByUrlResponse {
 
+
 }

@@ -1,7 +1,7 @@
 package com.baidu.uaq.imgopt.config;
 
 /**
- * Created by baidu on 15/12/10.
+ * Created by miaohong01 on 15/12/10.
  */
 public class ImgOptClientConfiguration {
     private String host;

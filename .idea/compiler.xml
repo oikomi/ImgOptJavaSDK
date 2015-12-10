@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="ImgOptJavaSDK" />
         <module name="ImgOptSDK" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="ImgOptJavaSDK" target="1.5" />
       <module name="ImgOptSDK" target="1.5" />
     </bytecodeTargetLevel>
   </component>
